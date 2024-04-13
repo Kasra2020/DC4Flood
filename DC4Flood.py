@@ -212,7 +212,7 @@ for mnx, count_name in enumerate(list_name):
 
 
         sio.savemat('./Sen1flood/CSmap_'+str(country)+'_iter'+str(v+1)+'_DC4Flood_S1_HAND.mat', 
-                    {'CSmap_dc4flood':kmap_dc4flood.reshape((m,n)),'loss':losses, 'FE_dc4flood':x_dc4flood.reshape((m,n,2)),'Learnable_no':count_parameters(model),
+                    {'CSmap_dc4flood':kmap_dc4flood.reshape((m,n)),'loss':losses, 'EF_dc4flood':x_dc4flood.reshape((m,n,2)),'Learnable_no':count_parameters(model),
                      'CA_DC4Flood':CA_dc4flood,'NMI_DC4Flood':NMI_dc4flood,'ARI_DC4Flood':ARI_dc4flood,'SScore_dc4flood':SScore_dc4flood})
 
 print("Finished.")
