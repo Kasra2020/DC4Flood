@@ -14,7 +14,7 @@ from sklearn.metrics import normalized_mutual_info_score, silhouette_score
 from sklearn.metrics import adjusted_rand_score
 os.chdir("D:/DC4Flood/")
 
-from conv_layer import DC4Flood
+from conv_layers import DC4Flood
 
 
 def weights_init(m):
