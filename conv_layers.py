@@ -1,3 +1,20 @@
+# Copyright (C) 2023-2024:
+#     Helmholtz Centre Potsdam - GFZ German Research Centre for Geosciences
+#
+# This program is free software: you can redistribute it and/or modify it
+# under the terms of the Apache License as published by
+# the Free Software Foundation, either version 2.0 of the License, or (at
+# your option) any later version.
+#
+# This program is distributed in the hope that it will be useful, but
+# WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+# See the Apache License, Version 2.0 for more details.
+#
+# You should have received a copy of the Apache License, Version 2.0
+# along with this program. If not, see https://www.apache.org/licenses/.
+
+
 import torch
 import torch.nn as nn
 
